@@ -3290,3 +3290,36 @@ body.homepage.is-preload #header:after {
 
   
 }
+a.link{
+	display: flex !important;
+	justify-content: center !important;
+}
+
+.image.fit img {
+    transition: all 0.3s ease-in-out;
+}
+
+.image.fit img:hover {
+    filter: blur(2px);
+    opacity: 0.8;
+}
+.back-header {
+    position: relative;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.back-icon {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    font-size: 30px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.back-icon:hover {
+    color: #df7366;
+}
